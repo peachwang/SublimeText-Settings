@@ -285,10 +285,17 @@
     { "keys" : ["ctrl+b"], "command" : "build" },
     { "keys" : ["alt+n"], "command" : "build", "args" : {"variant" : "Run"} },
     { "keys" : ["ctrl+n"], "command" : "build", "args" : {"variant" : "Run"} },
-    { "keys" : ["ctrl+alt+c"], "command" : "shell_prompt"},
-    { "keys" : ["shift+alt+c"], "command" : "subprocess_in_cwd", "args" : { "cmd" : ["cmd.exe"] } },
     { "keys" : ["shift+ctrl+alt+c"], "command" : "exec", "args" : { "kill" : true } },
 
+    // Shell Turtlestein
+    { "keys" : ["ctrl+alt+c"], "command" : "shell_prompt"},
+    { "keys" : ["shift+alt+c"], "command" : "subprocess_in_cwd", "args" : { "cmd" : ["cmd.exe"] } },
+    { "keys" : ["alt+left"], "command" : "move_to", "args" : {"to" : "bol"}, "context" : [{"key" : "setting.readline_input_widget"}] },
+    { "keys" : ["alt+right"], "command": "move_to", "args" : {"to" : "eol"}, "context" : [{"key" : "setting.readline_input_widget"}] },
+    { "keys" : ["shift+alt+backspace"], "command" : "run_macro_file",
+        "args" : {"file" : "Packages/Default/Delete to Hard BOL.sublime-macro"},
+        "context" : [{"key" : "setting.readline_input_widget"}]
+    },
 
     // Markdown
     { "keys" : ["shift+ctrl+b"], "command" : "markdown_build"},

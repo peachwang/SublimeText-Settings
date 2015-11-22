@@ -1,12 +1,13 @@
 {
-	"color_scheme": "Packages/Pylinter/MonokaiPylinter.tmTheme",
+	"auto_complete_cycle": true,
+	"bold_folder_labels": true,
 	"default_line_ending": "unix",
 	"dpi_scale": 1.0,
 	"draw_centered": false,
 	"draw_white_space": "all",
 	"font_face": "Consolas",
 	"font_size": 18,
-	"bold_folder_labels": true,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -47,10 +48,14 @@
 		"Vintage",
 		"YAML"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal"
+	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"show_line_endings": false,
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"highlight_line": true,
 	"word_wrap": true
 }

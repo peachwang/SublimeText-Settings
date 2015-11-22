@@ -1,0 +1,11 @@
+{
+    "surround_cmd": ["", ""],
+    "exec_args": {},
+    "cmd_settings": [
+        {
+            "cmd_regex": "^[^\\.\\s\\t\\n]+\\.py",
+            "exec_args": {},
+            "surround_cmd": ["cd src && python ", " | gawk '{print substr($0, 0, length($0) - 1)}'"],
+        }
+    ]
+}
