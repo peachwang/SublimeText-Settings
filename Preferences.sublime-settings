@@ -30,6 +30,7 @@
 		"Haskell",
 		"Java",
 		"JSON to CSV Converter",
+		"LaTeX",
 		"Lisp",
 		"Lua",
 		"Makefile",
@@ -47,6 +48,7 @@
 		"TCL",
 		"Textile",
 		"Vintage",
+		"XML",
 		"YAML"
 	],
 	"indent_guide_options":
