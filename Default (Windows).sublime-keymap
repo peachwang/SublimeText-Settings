@@ -217,17 +217,6 @@
     { "keys" : ["shift+ctrl+g"], "command" : "slurp_replace_string" },
 
 
-    // Goto
-    { "keys" : ["alt+1"], "command" : "show_overlay", "args" : {"overlay" : "goto", "show_files" : true} },
-    { "keys" : ["ctrl+1"], "command" : "show_overlay", "args" : {"overlay" : "goto", "show_files" : true} },
-    { "keys" : ["alt+2"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "@"} },
-    { "keys" : ["ctrl+2"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "@"} },
-    { "keys" : ["alt+3"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "#"} },
-    { "keys" : ["ctrl+3"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "#"} },
-    { "keys" : ["alt+4"], "command" : "show_overlay", "args" : { "overlay" : "goto", "text" : ":" } },
-    { "keys" : ["ctrl+4"], "command" : "show_overlay", "args" : { "overlay" : "goto", "text" : ":" } },
-
-
     // View
     { "keys" : ["alt+i"], "command" : "toggle_setting", "args" : {"setting" : "word_wrap"}},
     { "keys" : ["ctrl+i"], "command" : "toggle_setting", "args" : {"setting" : "word_wrap"}},
@@ -302,18 +291,34 @@
     { "keys" : ["ctrl+f2"], "command" : "select_all_bookmarks" },
 
 
-    // SFTP
-    { "keys" : ["alt+`"], "command" : "sftp_upload_file" },
-    { "keys" : ["shift+alt+`"], "command" : "sftp_download_file" },
-    { "keys" : ["ctrl+alt+`"], "command" : "sftp_browse" },
+    // Goto
+    { "keys" : ["alt+1"], "command" : "show_overlay", "args" : {"overlay" : "goto", "show_files" : true} },
+    { "keys" : ["ctrl+1"], "command" : "show_overlay", "args" : {"overlay" : "goto", "show_files" : true} },
+    { "keys" : ["alt+2"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "@"} },
+    { "keys" : ["ctrl+2"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "@"} },
+    { "keys" : ["alt+3"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "#"} },
+    { "keys" : ["ctrl+3"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "#"} },
+    { "keys" : ["alt+4"], "command" : "show_overlay", "args" : { "overlay" : "goto", "text" : ":" } },
+    { "keys" : ["ctrl+4"], "command" : "show_overlay", "args" : { "overlay" : "goto", "text" : ":" } },
 
 
-    // Run
+    // Tools
+    { "keys" : ["shift+ctrl+p"], "command" : "show_overlay", "args" : {"overlay" : "command_palette"} },
     { "keys" : ["alt+b"], "command" : "build" },
     { "keys" : ["ctrl+b"], "command" : "build" },
     { "keys" : ["alt+n"], "command" : "build", "args" : {"variant" : "Run"} },
     { "keys" : ["ctrl+n"], "command" : "build", "args" : {"variant" : "Run"} },
     { "keys" : ["shift+ctrl+alt+c"], "command" : "exec", "args" : { "kill" : true } },
+
+
+    // Project
+    { "keys" : ["ctrl+alt+p"], "command" : "prompt_select_workspace" },
+
+
+    // SFTP
+    { "keys" : ["alt+`"], "command" : "sftp_upload_file" },
+    { "keys" : ["shift+alt+`"], "command" : "sftp_download_file" },
+    { "keys" : ["ctrl+alt+`"], "command" : "sftp_browse" },
 
 
     // Shell Turtlestein
