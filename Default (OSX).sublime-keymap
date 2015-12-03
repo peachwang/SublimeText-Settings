@@ -1,5 +1,9 @@
 [
     // File
+    { "keys" : ["shift+alt+n"], "command" : "new_window" },
+    { "keys" : ["shift+super+n"], "command" : "new_window" },
+    { "keys" : ["shift+ctrl+n"], "command" : "new_window" },
+    
     { "keys" : ["alt+t"], "command" : "new_file" },
     { "keys" : ["super+t"], "command" : "new_file" },
     { "keys" : ["ctrl+t"], "command" : "new_file" },
@@ -330,7 +334,6 @@
     { "keys" : ["shift+ctrl+4"], "command" : "set_layout", "args" : { "cols" : [0.0, 1.0], "rows" : [0.0, 0.75, 1.0], "cells" : [[0, 0, 1, 1], [0, 1, 1, 2]] } },
     { "keys" : ["shift+ctrl+5"], "command" : "set_layout", "args" : { "cols" : [0.0, 1.0], "rows" : [0.0, 0.80, 1.0], "cells" : [[0, 0, 1, 1], [0, 1, 1, 2]] } },
     { "keys" : ["shift+ctrl+6"], "command" : "set_layout", "args" : { "cols" : [0.0, 0.5, 1.0], "rows" : [0.0, 1.0], "cells" : [[0, 0, 1, 1], [1, 0, 2, 1]] } },
-    { "keys" : ["ctrl+alt+6"], "command" : "set_layout", "args" : { "cols" : [0.0, 0.5, 1.0], "rows" : [0.0, 1.0], "cells" : [[0, 0, 1, 1], [1, 0, 2, 1]] } },
     { "keys" : ["shift+ctrl+7"], "command" : "set_layout", "args" : { "cols" : [0.0, 0.6, 1.0], "rows" : [0.0, 1.0], "cells" : [[0, 0, 1, 1], [1, 0, 2, 1]] } },
     { "keys" : ["shift+ctrl+8"], "command" : "set_layout", "args" : { "cols" : [0.0, 0.6, 1.0], "rows" : [0.0, 0.6, 1.0], "cells" : [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]] } },
     { "keys" : ["shift+ctrl+9"], "command" : "set_layout", "args" : { "cols" : [0.0, 0.5, 1.0], "rows" : [0.0, 0.6, 1.0], "cells" : [[0, 1, 1, 2], [1, 1, 2, 2], [0, 0, 2, 1]] } },
