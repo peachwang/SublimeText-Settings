@@ -1,5 +1,8 @@
 [
     // File
+    { "keys" : ["shift+ctrl+n"], "command" : "new_window" },
+    { "keys" : ["shift+alt+n"], "command" : "new_window" },
+    
     { "keys" : ["alt+t"], "command" : "new_file" },
     { "keys" : ["ctrl+t"], "command" : "new_file" },
     { "keys" : ["shift+alt+t"], "command" : "reopen_last_file" },
