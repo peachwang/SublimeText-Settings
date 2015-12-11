@@ -4,13 +4,16 @@
     "verbose": true,
     // The full path to the Python executable you want to
     // run Pylint with or simply use 'python'.
-    "python_bin": "python",
+    // "python_bin": "python",
+    "python_bin": "/usr/bin/python2.7",
     // The following paths will be added Pylint's Python path
-    "python_path": [ "D:/Python27/python.exe" ],
+    // "python_path": [ "D:/Python27/python.exe" ],
+    "python_path": ["/usr/local/lib/python2.7/site-packages"],
     // Optionally set the working directory
     "working_dir": null,
     // Full path to the lint.py module in the pylint package
-    "pylint_path": "D:/Python27/Lib/site-packages/pylint/lint.py",
+    // "pylint_path": "D:/Python27/Lib/site-packages/pylint/lint.py",
+    "pylint_path": "/usr/local/lib/python2.7/site-packages/pylint/lint.py",
     // Optional full path to a Pylint configuration file
     "pylint_rc": null,
     // Set to true to automtically run Pylint on save
