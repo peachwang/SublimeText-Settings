@@ -321,12 +321,12 @@
     { "keys" : ["shift+super+0"], "command" : "unfold_all" },
     { "keys" : ["shift+ctrl+0"], "command" : "unfold_all" },
     
-    { "keys" : ["alt+-"], "command" : "decrease_font_size" },
-    { "keys" : ["super+-"], "command" : "decrease_font_size" },
-    { "keys" : ["ctrl+-"], "command" : "decrease_font_size" },
-    { "keys" : ["alt+="], "command" : "increase_font_size" },
-    { "keys" : ["super+="], "command" : "increase_font_size" },
-    { "keys" : ["ctrl+="], "command" : "increase_font_size" },
+    { "keys" : ["alt+minus"], "command" : "decrease_font_size" },
+    { "keys" : ["shift+super+minus"], "command" : "decrease_font_size" },
+    { "keys" : ["ctrl+minus"], "command" : "decrease_font_size" },
+    { "keys" : ["alt+equals"], "command" : "increase_font_size" },
+    { "keys" : ["shift+super+equals"], "command" : "increase_font_size" },
+    { "keys" : ["ctrl+equals"], "command" : "increase_font_size" },
 
     { "keys" : ["shift+ctrl+1"], "command" : "set_layout", "args" : { "cols" : [0.0, 1.0], "rows" : [0.0, 1.0], "cells" : [[0, 0, 1, 1]] } },
     // { "keys" : ["shift+ctrl+"], "command" : "set_layout", "args" : { "cols" : [0.0, 1.0], "rows" : [0.0, 0.5, 1.0], "cells" : [[0, 0, 1, 1], [0, 1, 1, 2]] } },
