@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+# class ${1}
+# 
+# @property ${2} ${3}
+# 
+# @method 
+]]></content>
+    <tabTrigger>#</tabTrigger>
+    <scope>source.python</scope>
+    <description>Class Comment</description>
+</snippet>

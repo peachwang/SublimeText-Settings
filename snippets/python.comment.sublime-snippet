@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-// @todo: 
+# @todo: 
 ]]></content>
-    <tabTrigger>/</tabTrigger>
-    <scope>source.php</scope>
+    <tabTrigger>#</tabTrigger>
+    <scope>source.python</scope>
     <description>Comment</description>
 </snippet>

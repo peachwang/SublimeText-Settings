@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+# ${1}
+# @param ${2} ${3}
+# @return ${4}
+]]></content>
+    <tabTrigger>#</tabTrigger>
+    <scope>source.python</scope>
+    <description>Method Comment</description>
+</snippet>
