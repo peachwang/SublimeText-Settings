@@ -2,8 +2,8 @@
     <content><![CDATA[
 /**
  * ${1}
- * @param ${2} ${3}
- * @return ${4}
+ * @param ${2}
+ * @return ${3}
  */
 ]]></content>
     <tabTrigger>/.</tabTrigger>

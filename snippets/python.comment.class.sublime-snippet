@@ -2,7 +2,7 @@
     <content><![CDATA[
 # class ${1}
 # 
-# @property ${2} ${3}
+# @property ${2}
 # 
 # @method 
 ]]></content>
