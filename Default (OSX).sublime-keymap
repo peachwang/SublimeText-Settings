@@ -264,16 +264,16 @@
     { "keys" : ["ctrl+g"], "command" : "slurp_find_string" },
 
     { "keys" : ["alt+5"], "command" : "toggle_regex", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
-    // { "keys" : ["super+5"], "command" : "toggle_regex", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
+    { "keys" : ["super+5"], "command" : "toggle_regex", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
     { "keys" : ["ctrl+5"], "command" : "toggle_regex", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
     { "keys" : ["alt+6"], "command" : "toggle_case_sensitive", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
-    // { "keys" : ["super+6"], "command" : "toggle_case_sensitive", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
+    { "keys" : ["super+6"], "command" : "toggle_case_sensitive", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
     { "keys" : ["ctrl+6"], "command" : "toggle_case_sensitive", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
     { "keys" : ["alt+7"], "command" : "toggle_whole_word", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
-    // { "keys" : ["super+7"], "command" : "toggle_whole_word", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
+    { "keys" : ["super+7"], "command" : "toggle_whole_word", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
     { "keys" : ["ctrl+7"], "command" : "toggle_whole_word", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
     { "keys" : ["alt+8"], "command" : "toggle_reverse", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
-    // { "keys" : ["super+8"], "command" : "toggle_reverse", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
+    { "keys" : ["super+8"], "command" : "toggle_reverse", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
     { "keys" : ["ctrl+8"], "command" : "toggle_reverse", "context" : [{ "key" : "setting.is_widget", "operator" : "equal", "operand" : true } ] },
 
 
@@ -309,13 +309,13 @@
     { "keys" : ["ctrl+i"], "command" : "toggle_setting", "args" : {"setting" : "word_wrap"}},
     
     { "keys" : ["alt+9"], "command" : "fold" },
-    // { "keys" : ["super+9"], "command" : "fold" },
+    { "keys" : ["super+9"], "command" : "fold" },
     { "keys" : ["ctrl+9"], "command" : "fold" },
     { "keys" : ["shift+alt+9"], "command" : "fold_all" },
     { "keys" : ["shift+super+9"], "command" : "fold_all" },
     { "keys" : ["shift+ctrl+9"], "command" : "fold_all" },
     { "keys" : ["alt+0"], "command" : "unfold" },
-    // { "keys" : ["super+0"], "command" : "unfold" },
+    { "keys" : ["super+0"], "command" : "unfold" },
     { "keys" : ["ctrl+0"], "command" : "unfold" },
     { "keys" : ["shift+alt+0"], "command" : "unfold_all" },
     { "keys" : ["shift+super+0"], "command" : "unfold_all" },
@@ -414,18 +414,18 @@
 
 
     // Goto
-    { "keys" : ["alt+1"], "command" : "show_overlay", "args" : {"overlay" : "goto", "show_files" : true} },
-    // { "keys" : ["super+1"], "command" : "show_overlay", "args" : {"overlay" : "goto", "show_files" : true} },
-    { "keys" : ["ctrl+1"], "command" : "show_overlay", "args" : {"overlay" : "goto", "show_files" : true} },
+    { "keys" : ["alt+1"], "command" : "show_overlay", "args" : { "overlay" : "goto", "text" : ":" } },
+    { "keys" : ["super+1"], "command" : "show_overlay", "args" : { "overlay" : "goto", "text" : ":" } },
+    { "keys" : ["ctrl+1"], "command" : "show_overlay", "args" : { "overlay" : "goto", "text" : ":" } },
     { "keys" : ["alt+2"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "@"} },
-    // { "keys" : ["super+2"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "@"} },
+    { "keys" : ["super+2"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "@"} },
     { "keys" : ["ctrl+2"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "@"} },
-    { "keys" : ["alt+3"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "#"} },
-    // { "keys" : ["super+3"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "#"} },
-    { "keys" : ["ctrl+3"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "#"} },
-    { "keys" : ["alt+4"], "command" : "show_overlay", "args" : { "overlay" : "goto", "text" : ":" } },
-    // { "keys" : ["super+4"], "command" : "show_overlay", "args" : { "overlay" : "goto", "text" : ":" } },
-    { "keys" : ["ctrl+4"], "command" : "show_overlay", "args" : { "overlay" : "goto", "text" : ":" } },
+    { "keys" : ["alt+3"], "command" : "show_overlay", "args" : {"overlay" : "goto", "show_files" : true} },
+    { "keys" : ["super+3"], "command" : "show_overlay", "args" : {"overlay" : "goto", "show_files" : true} },
+    { "keys" : ["ctrl+3"], "command" : "show_overlay", "args" : {"overlay" : "goto", "show_files" : true} },
+    { "keys" : ["alt+4"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "#"} },
+    { "keys" : ["super+4"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "#"} },
+    { "keys" : ["ctrl+4"], "command" : "show_overlay", "args" : {"overlay" : "goto", "text" : "#"} },
 
 
     // Tools
